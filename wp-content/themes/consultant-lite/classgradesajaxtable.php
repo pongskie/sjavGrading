@@ -3,7 +3,7 @@ require_once("../../../wp-load.php");
 global $wpdb;
 date_default_timezone_set('Asia/Manila');
 
-## Read value
+#### Read value
 $user_logged_in = $_POST['hiduser'];
 
 $draw = $_POST['draw'];
