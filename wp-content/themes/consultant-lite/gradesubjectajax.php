@@ -12,7 +12,7 @@ if($_POST['action'] == 'add'){
 	 $date_entered = date("Y-m-d H:i:s");
      $user_logged_in = $_POST['userID'];	
 
-     //echo "grde-".$gradelvl."~subject-".$gsubject."~seccode-".$sec_code."~dateenter-".$date_entered."~user-".$user_logged_in;	 
+     /////echo "grde-".$gradelvl."~subject-".$gsubject."~seccode-".$sec_code."~dateenter-".$date_entered."~user-".$user_logged_in;	 
 
 	 if($wpdb->insert(
 		  'gradelevel_subject_tbl',
