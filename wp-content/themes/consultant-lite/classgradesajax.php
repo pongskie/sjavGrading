@@ -1,5 +1,4 @@
 <?php
-//aaaaa
 require_once("../../../wp-load.php");
 global $wpdb;
 date_default_timezone_set('Asia/Manila');
