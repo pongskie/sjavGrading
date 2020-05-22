@@ -3,10 +3,6 @@ require_once("../../../wp-load.php");
 global $wpdb;
 date_default_timezone_set('Asia/Manila');
 
-// get teacher logged in ID
-//$user = wp_get_current_user();
-//$user_logged_in = $_GET['id'];
-
 ## Read value
 $user_logged_in = $_POST['hiduser'];
 
